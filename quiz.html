@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Personality Quiz - Cultivate</title>
+    <link rel="stylesheet" href="">
+    <style>
+        header,
+        footer {
+            background-image: url('images/wp3348587-dack-green-background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        body {
+            font-family: "Dosis", sans-serif;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            background-image: url('images/Spring\ Flowers\ Gardening\ Wallpaper.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Find Your Perfect Plant</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="shop.html">Shop</a>
+        <a href="quiz.html">Plant Personality Quiz</a>
+    </nav>
+
+    <div class="content">
+        <h2>Take the Quiz</h2>
+        <form action="#" method="post">
+            <!-- Question 1 -->
+            <label for="q1">How much sunlight does your space get?</label><br>
+            <input type="radio" id="full_sun" name="sunlight" value="full_sun" required> Full Sun<br>
+            <input type="radio" id="partial_sun" name="sunlight" value="partial_sun"> Partial Sun<br>
+            <input type="radio" id="shade" name="sunlight" value="shade"> Shade<br><br>
+
+            <!-- Question 2 -->
+            <label for="q2">How often can you water your plant?</label><br>
+            <input type="radio" id="daily" name="water" value="daily" required> Daily<br>
+            <input type="radio" id="weekly" name="water" value="weekly"> Weekly<br>
+            <input type="radio" id="occasionally" name="water" value="occasionally"> Occasionally<br><br>
+
+            <!-- Question 3 -->
+            <label for="q3">How much time can you dedicate to plant care?</label><br>
+            <input type="radio" id="a_lot" name="care_time" value="a_lot" required> A Lot<br>
+            <input type="radio" id="some" name="care_time" value="some"> Some<br>
+            <input type="radio" id="little" name="care_time" value="little"> Very Little<br><br>
+
+            <!-- Question 4 -->
+            <label for="q4">What type of environment do you live in?</label><br>
+            <input type="radio" id="humid" name="environment" value="humid" required> Humid<br>
+            <input type="radio" id="dry" name="environment" value="dry"> Dry<br>
+            <input type="radio" id="moderate" name="environment" value="moderate"> Moderate<br><br>
+
+            <!-- Question 5 -->
+            <label for="q5">What do you want your plant to do?</label><br>
+            <input type="radio" id="aesthetics" name="purpose" value="aesthetics" required> Look Beautiful<br>
+            <input type="radio" id="air_purify" name="purpose" value="air_purify"> Purify Air<br>
+            <input type="radio" id="easy_care" name="purpose" value="easy_care"> Be Easy to Care For<br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Find My Plant">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Cultivate. All rights reserved.</p>
+        <p>Contact us: cultivate@example.com</p>
+    </footer>
+
+</body>
+
+</html>

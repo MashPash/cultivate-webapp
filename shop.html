@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Cultivate</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        header,
+        footer {
+            background-image: url('images/wp3348587-dack-green-background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        body {
+            font-family: "Dosis", sans-serif;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            background-image: url('images/Spring\ Flowers\ Gardening\ Wallpaper.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Shop Our Plants</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="shop.html">Shop</a>
+        <a href="quiz.html">Plant Personality Quiz</a>
+    </nav>
+
+    <!-- Shop Area Start -->
+    <section class="shop-page">
+        <div class="shop-sorting-data">
+            <!-- Shop Page Count -->
+            <div class="shop-page-count">
+                <p>Showing 1–9 of 72 results</p>
+            </div>
+            <!-- Search by Terms -->
+            <div class="search-by-terms">
+                <form action="#" method="post">
+                    <select name="sort">
+                        <option selected>Sort by Popularity</option>
+                        <option value="1">Sort by Newest</option>
+                        <option value="2">Sort by Sales</option>
+                        <option value="3">Sort by Ratings</option>
+                    </select>
+                    <select name="show">
+                        <option selected>Show: 9</option>
+                        <option value="1">12</option>
+                        <option value="2">18</option>
+                        <option value="3">24</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+
+        <div class="shop-sidebar-area">
+            <!-- Prices -->
+            <div class="shop-widget price">
+                <h4>Prices</h4>
+                <p>Price: $8 - $30</p>
+            </div>
+
+            <!-- Categories -->
+            <div class="shop-widget category">
+                <h4>Categories</h4>
+                <label><input type="checkbox" name="category" value="all"> All plants (72)</label><br>
+                <label><input type="checkbox" name="category" value="outdoor"> Outdoor plants (20)</label><br>
+                <label><input type="checkbox" name="category" value="indoor"> Indoor plants (15)</label><br>
+                <label><input type="checkbox" name="category" value="office"> Office Plants (20)</label><br>
+                <label><input type="checkbox" name="category" value="potted"> Potted (15)</label><br>
+                <label><input type="checkbox" name="category" value="others"> Others (2)</label>
+            </div>
+
+            <!-- Sort by -->
+            <div class="shop-widget sort-by">
+                <h4>Sort by</h4>
+                <label><input type="checkbox" name="sort" value="new-arrivals"> New arrivals</label><br>
+                <label><input type="checkbox" name="sort" value="a-z"> Alphabetically, A-Z</label><br>
+                <label><input type="checkbox" name="sort" value="z-a"> Alphabetically, Z-A</label><br>
+                <label><input type="checkbox" name="sort" value="low-to-high"> Price: low to high</label><br>
+                <label><input type="checkbox" name="sort" value="high-to-low"> Price: high to low</label>
+            </div>
+
+            <!-- Best Sellers -->
+            <div class="shop-widget best-seller">
+                <h4>Best Seller</h4>
+                <div class="product">
+                    <a href="shop-details.html">Cactus Flower</a>
+                    <p>$10.99</p>
+                    <p>★★★★★</p>
+                </div>
+                <div class="product">
+                    <a href="shop-details.html">Tulip Flower</a>
+                    <p>$11.99</p>
+                    <p>★★★★★</p>
+                </div>
+                <div class="product">
+                    <a href="shop-details.html">Recuerdos Plant</a>
+                    <p>$9.99</p>
+                    <p>★★★★★</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- All Products Area -->
+        <div class="shop-products-area">
+            <div class="product">
+                <a href="shop-details.html"><img src="images/40.png" alt="Cactus Flower"></a>
+                <p>Cactus Flower</p>
+                <p>$10.99</p>
+            </div>
+            <div class="product">
+                <a href="shop-details.html"><img src="images/41.png" alt="Tulip Flower"></a>
+                <p>Tulip Flower</p>
+                <p>$11.99</p>
+            </div>
+            <div class="product">
+                <a href="shop-details.html"><img src="images/42.png" alt="Recuerdos Plant"></a>
+                <p>Recuerdos Plant</p>
+                <p>$9.99</p>
+            </div>
+            <div class="product">
+                <a href="shop-details.html"><img src="images/43.png" alt="Recuerdos Plant"></a>
+                <p>Recuerdos Plant</p>
+                <p>$9.99</p>
+            </div>
+            <div class="product">
+                <a href="shop-details.html"><img src="images/44.png" alt="Recuerdos Plant"></a>
+                <p>Cactus Plant</p>
+                <p>$9.99</p>
+            </div>
+            <div class="product">
+                <a href="shop-details.html"><img src="images/45.png" alt="Recuerdos Plant"></a>
+                <p>Recuerdos Plant</p>
+                <p>$9.99</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- Shop Area End -->
+
+
+
+    <footer>
+        <p>&copy; 2024 Cultivate. All rights reserved.</p>
+        <p>Contact us: cultivate@example.com</p>
+    </footer>
+
+</body>
+
+</html>
